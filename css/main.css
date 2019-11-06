@@ -1,0 +1,26 @@
+@keyframes eyes {
+
+  0% {
+    transform: translateX(0em);
+  }
+
+  25% {
+    transform: translateX(.5em);
+  }
+
+  50% {
+    transform: translateX(0em);
+  }
+
+  75% {
+    transform: translateX(-.5em);
+  }
+
+  100% {
+    transform: translateX(0em);
+  }
+}
+
+#left-eye, #right-eye {
+  animation: eyes 2s linear infinite;
+}
