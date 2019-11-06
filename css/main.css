@@ -19,8 +19,21 @@
   100% {
     transform: translateX(0em);
   }
+
 }
 
 #left-eye, #right-eye {
   animation: eyes 2s linear infinite;
+}
+
+#left-ear, #right-ear {
+  transition: all .5s linear;
+}
+
+#bear:hover #left-ear {
+  transform: translateY(-5px);
+}
+
+#bear:hover #right-ear {
+  transform: translateY(-5px);
 }
